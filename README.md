@@ -1,2 +1,40 @@
-# Mediaviewer
+# Media viewer
  
+ 
+## Getting started
+
+
+
+### Introduction
+#### CSS
+Include the media viewer CSS underneath your Bootstrap css in the head of your page.
+```
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://yourwebsite.com/mediaviewer/css/media-viewer-style.css">
+```
+
+#### JS
+Include the media viewer JS underneath your Bootstrap js.
+```
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<script src="https://yourwebsite.com/js/media-viewer-js.js"></script> 
+```
+
+#### Template
+Add this code where you want
+```
+<div class="media-viewer" data-viewer-id="1">
+    <ul>
+        <li><a role="button"><img src="https://yourwebsite.com/images/test-image-1.jpg" data-view="land" data-title="Image 1" data-description="This is image number 1" alt="imageAlt"></a></li>
+        <li><a role="button"><img src="https://yourwebsite.com/images/test-image-2.jpg" data-view="port" data-title="Image 2" data-description="This is image number 2" alt="imageAlt"></a></li>
+        <li><a role="button"><img src="https://yourwebsite.com/images/test-image-3.jpg" data-view="land" data-title="Image 3" data-description="This is image number 3" alt="imageAlt"></a></li>
+        <li><a role="button"><img src="https://yourwebsite.com/images/test-image-4.jpg" data-view="port" data-title="Image 4" data-description="This is image number 4" alt="imageAlt"></a></li>
+        <li><a role="button"><img src="https://yourwebsite.com/images/test-image-5.jpg" data-view="land" data-title="Image 5" data-description="This is image number 5" alt="imageAlt"></a></li>
+        <li><a role="button"><img src="https://yourwebsite.com/images/test-image-6.jpg" data-view="port" data-title="Image 6" data-description="This is image number 6" alt="imageAlt"></a></li>
+    </ul>
+</div>
+```
