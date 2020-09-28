@@ -34,3 +34,8 @@ Include the media viewer JS underneath your Bootstrap JS files.
     </ul>
 </div>
 ```
+
+#### Initiate Media viewer
+```js
+$('.media-viewer').mediaviewer();
+```
