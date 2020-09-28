@@ -6,6 +6,9 @@
 
 
 ### Introduction
+Media viewer is a responsive media slideshow plugin for Bootstrap. It is also completely customisable for any gallery of images. All you need to do is include the CSS and JS files in your Bootstrap page and Bobs your uncle:older_man:.
+
+
 #### CSS
 Include the media viewer CSS underneath your Bootstrap CSS.
 ```html
