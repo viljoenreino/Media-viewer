@@ -1,7 +1,7 @@
 # Media viewer
  
  
-## Getting started
+## :beginner: Getting started
 
 
 
