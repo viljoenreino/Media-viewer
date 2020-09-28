@@ -7,16 +7,16 @@
 
 ### Introduction
 #### CSS
-Include the media viewer CSS underneath your Bootstrap css in the head of your page.
-```
+Include the media viewer CSS underneath your Bootstrap CSS.
+```html
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
 <link rel="stylesheet" href="https://yourwebsite.com/mediaviewer/css/media-viewer-style.css">
 ```
 
 #### JS
-Include the media viewer JS underneath your Bootstrap js.
-```
+Include the media viewer JS underneath your Bootstrap JS files.
+```html
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -25,8 +25,7 @@ Include the media viewer JS underneath your Bootstrap js.
 ```
 
 #### Template
-Add this code where you want
-```
+```html
 <div class="media-viewer" data-viewer-id="1">
     <ul>
         <li><a role="button"><img src="https://yourwebsite.com/images/test-image-1.jpg" data-view="land" data-title="Image 1" data-description="This is image number 1" alt="imageAlt"></a></li>
